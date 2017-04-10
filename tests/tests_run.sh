@@ -15,6 +15,7 @@ bin/neuralmonkey-train tests/labeler.ini
 bin/neuralmonkey-train tests/language-model.ini
 
 bin/neuralmonkey-train tests/small.ini
+bin/neuralmonkey-train tests/small_sent_cnn.ini
 bin/neuralmonkey-run tests/small.ini tests/test_data.ini
 bin/neuralmonkey-server --configuration=tests/small.ini --port=5000 &
 SERVER_PID=$!
